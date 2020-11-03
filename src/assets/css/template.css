@@ -1,0 +1,54 @@
+body {
+  background: #f2f3f5;
+}
+
+.app-header {
+  background: #081019;
+}
+
+.app-header .app-title{
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.app-container {
+  padding: 20px;
+}
+.text-white {
+  color: #ffffff !important;
+}
+.card-main-count {
+  font-weight: bold;
+}
+.card-main-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card-sub-count {
+  margin: 0;
+} 
+.card-sub-text {
+  font-size: 12px;
+
+}
+
+.card-db-stats.blue {
+  background: #2196f3;
+}
+
+.card-db-stats.purple {
+  background: #6220d8;
+}
+
+.card-db-stats.green {
+  background: #4caf50;
+}
+
+.card-db-stats.yellow {
+  background: #ffc107;
+}
