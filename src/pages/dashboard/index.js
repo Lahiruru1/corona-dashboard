@@ -9,6 +9,7 @@ import TotalDeaths from './components/widgets/summary_widgets/total_deaths';
 import TotalRecovered from './components/widgets/summary_widgets/total_recovered';
 import TotalActive from './components/widgets/summary_widgets/total_active';
 import CasesSummaryChartWidget from './components/widgets/summary_widgets/cases_summary_chart_widget'
+import AllCasesHeatMapComponent from './components/widgets/cases_heatmap/all_cases';
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -90,6 +91,11 @@ class Dashboard extends React.Component {
                   critical={result.critical}
                 />
               </div>
+            </div>
+          </div>
+          <div className="row" style={{marginTop: '30px'}}>
+            <div className="col-md-12">
+              <AllCasesHeatMapComponent />
             </div>
           </div>
         </div>
