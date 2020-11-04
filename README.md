@@ -1,5 +1,5 @@
 
-# Corona Dashboard
+# Interactive Dashboard for Coronavirus (COVID-19) Statistics
 
 This project is easily visualize Covid-19 statistics around the globe. This includes current active cases, recoveries, deaths in each
 country.
@@ -7,6 +7,10 @@ country.
 ## Build & Run
 
 In the project directory, you can run:
+
+### `$ git clone [https://github.com/Lahiruru1/corona-dashboard.git]`
+
+Use $ git clone [https://github.com/Lahiruru1/corona-dashboard.git] to clone the project from my github repository. 
 
 ### `npm install`
 
@@ -30,6 +34,5 @@ API [https://documenter.getpostman.com/view/8854915/SzS7R6uu?version=latest]
 Also used google map API to view each countries status on map.\
 GoogleMapUrl [https://maps.googleapis.com/maps/api/js?key]
 
-Corona Dashboard able to execute from the local machine simply.
-
+This Coronavirus Dashboard can be executed in your local computer easily. 
 
